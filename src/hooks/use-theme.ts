@@ -4,11 +4,14 @@
  */
 
 import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useThemePreference } from '@/hooks/use-theme-preference';
 
+/**
+ * The active palette. Reads the resolved scheme from the preference provider, not
+ * the device directly, so the Ayarlar → Görünüm choice actually takes effect.
+ */
 export function useTheme() {
-  const scheme = useColorScheme();
-  const theme = scheme === 'unspecified' ? 'light' : scheme;
+  const { scheme } = useThemePreference();
 
-  return Colors[theme];
+  return Colors[scheme];
 }

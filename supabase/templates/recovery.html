@@ -1,0 +1,21 @@
+<!--
+  Parola sıfırlama e-postası.
+
+  Bağlantı değil KOD gönderiyoruz. Sebep: bağlantı, telefonu uygulamaya geri
+  götürmek için "derin bağlantı" (deep link) kurmayı gerektiriyor — ve o yol
+  Expo Go'da uygulamanın adresi bilgisayarın IP'sinden türediği için kırılgan.
+  Kod ise her ortamda aynı çalışır ve kullanıcı uygulamadan hiç çıkmaz.
+-->
+<h2>Parola sıfırlama</h2>
+
+<p>Merhaba,</p>
+
+<p>easy hesap parolanı sıfırlamak için aşağıdaki kodu uygulamaya gir:</p>
+
+<p style="font-size:28px;font-weight:bold;letter-spacing:6px;">{{ .Token }}</p>
+
+<p>Bu kod kısa süre içinde geçersiz olur ve yalnızca bir kez kullanılabilir.</p>
+
+<p style="color:#666;font-size:13px;">
+  Bu isteği sen yapmadıysan bu e-postayı yok sayabilirsin; parolan değişmez.
+</p>

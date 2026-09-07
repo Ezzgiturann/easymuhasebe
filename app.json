@@ -1,16 +1,18 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Easy Hesap",
+    "slug": "easy-hesap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "easyhesap",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "bundleIdentifier": "com.easyhesap.app",
+      "supportsTablet": false
     },
     "android": {
+      "package": "com.easyhesap.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -28,9 +30,26 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#F5F3EF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      "expo-sqlite",
+      "@react-native-community/datetimepicker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Fişlerin fotoğrafını eklemek için galeriye erişim izni.",
+          "cameraPermission": "Fişin fotoğrafını çekmek için kamera izni."
+        }
+      ],
+      "expo-font",
+      "expo-secure-store",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Uygulamayı açarken Face ID ile doğrulamak için."
         }
       ]
     ],

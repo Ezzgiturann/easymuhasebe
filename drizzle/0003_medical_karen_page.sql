@@ -1,0 +1,1 @@
+ALTER TABLE `accounts` ADD `is_shared` integer DEFAULT false NOT NULL;

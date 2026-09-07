@@ -1,0 +1,1 @@
+ALTER TABLE `transactions` ADD `to_kasa_type` text;

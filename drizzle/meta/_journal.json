@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1784648048953,
+      "tag": "0000_thick_zzzax",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784669478905,
+      "tag": "0001_burly_carmella_unuscione",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1784672915824,
+      "tag": "0002_clear_dazzler",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1785152164309,
+      "tag": "0003_medical_karen_page",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1786042232617,
+      "tag": "0004_shocking_shriek",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1786091276677,
+      "tag": "0005_cute_orphan",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1786099062251,
+      "tag": "0006_rich_jazinda",
+      "breakpoints": true
+    }
+  ]
+}

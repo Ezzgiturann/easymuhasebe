@@ -1,0 +1,1 @@
+ALTER TABLE `contacts` ADD `payment_term_days` integer;
